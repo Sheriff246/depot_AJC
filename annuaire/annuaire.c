@@ -24,32 +24,41 @@ void demande0()
 
 void demandeAdd()
 {
+    int j = 0 ;
+    int find0 = *numero[j];
+
     if (reponse0 = 1)
-        printf ("entrez le nom de votre contact");
-        scanf("%[^\n]",toupper(nom));
-        int changeNom = *nom
-        char ("%s", changeNom)
-        printf ("entrez son numero de telephone, sans espaces");
+    {
+       printf ("entrez un numero de telephone, sans espaces");
+        scanf ("%d",numero[j])
 
-        int i =0 ;
-        int find0 = *numero[i];
-        for (i=0 ; find0 !=0 ; i++)
+
+        for (j=0 ; find0 !=0 ; j++)
         {
-            scanf("%d", numero[i]);
+        //    if (j <=100){malloc}
+            scanf("%d", numero[j]);
         }
-
        /* strcat ('nom', %d, i);inutile avec les tableaux de pointeurs
         strcat (nom, %d, i);*/
+    }
+    printf ("entrez le nom de votre contact");
+        scanf("%[^\n]",toupper(nom));
+        /*int changeNom = *nom
+        char ("%s", changeNom)*/
+
+
 }
 
 
 void damandeFnum()
 {
     if reponse0=2
-        char toFnum ;
+        {
+            char toFnum ;
 
         if toFnum = numero
     printf("voici le qui a le numéro %d : %s",);
+        }
 
 }
 
@@ -57,28 +66,44 @@ void damandeFnum()
 void damandeFnom()
 {
     if reponse0=3
+    {
         char toFnom ;
 
-        if toFnom == nom
-    printf("voici le numéro de %s : %d",toFnom);
+        if
+        {
+            toFnom == nom
+            printf("voici le numéro de %s : %d",toFnom)
+        }
+        ;
 
 }
 
 void demandeDel()
 {
     if reponse0=4
-    char toDel;
+    {
+        char toDel;
   printf("qui voulez vous supprimer de vos contacts");
   scanf("%[^\n]", toDel);
-  if toDel == nom
+        if toDel == nom
+        {
 
-
-  numero =0
-  nom=NULL
+        }
+        numero =0
+        nom=NULL
+    }
 }
 
 
-int Sortir ()
+    int sauver() {}
+
+
+    int afficher () { }
+
+
+
+
+int sortir ()
     {   else if (reponse0 =0)
-            return 0 ;
+            return 9 ;
     }

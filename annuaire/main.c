@@ -7,15 +7,27 @@
 
 int main()
 {
+
+    static int numero[100] = {0} ^0[1-9]([-.]?[0-9]{2}){4}$
+/*    static int *toNum [100] = {NULL}
+    static char *toName [33] = {NULL}
+*/
+    for (i=0, i<100, i++)
+    {
+        static char *nom[100]{i}
+    }
+
+
     printf("Bienvenue dans votre annuaire\nIl dispose de 100 emplacements\n\n");
 
     demande0 ;
-    static int numero[100] = {0} ^0[1-9]([-.]?[0-9]{2}){4}$
-    static int toNum [100] = {NULL}
-    static int toName [100] = {NULL}
-    static char nom[100] = {'000000000000000000000000000000000'} // limité à 30
-
-
+    demandeAdd ;
+    demandeFnum ;
+    demandeFnom ;
+    sauver;
+    afficher ;
+    demandeDel ;
+    sortir ;
 
     return 0;
 }
